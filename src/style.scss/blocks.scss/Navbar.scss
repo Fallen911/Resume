@@ -1,0 +1,36 @@
+@import "variables.scss";
+
+nav {
+    display:flex;
+    margin: 20px 100px ;
+    justify-content: space-between;
+}
+.Nav-name {
+    display: flex;
+    width: 370px;
+    height: 130px;
+    justify-content: space-between;
+}
+.Nav-name > p {
+    display: flex;
+    text-align: center;
+    font-family: $OpenSans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+.navbar-links-container {
+    display: flex;
+    width: 741px;
+    height: 100px;
+    justify-content: space-between;
+}
+.navbar-links-container > a {
+    font-family: $OpenSans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100px;
+    text-decoration: none;
+    color: inherit;
+}
