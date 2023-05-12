@@ -1,0 +1,37 @@
+.MyDescription-container{
+    display: flex;
+    flex-direction: column;
+    margin: 64px 100px 0 100px;
+    width: 1220px;
+    max-height: 511px;
+    flex-wrap: wrap;
+
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.Front-end {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    width: 804px;
+    height: 200px;
+}
+
+.Who-am-I {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: rgba(0, 0, 0, 0.61);
+    width: 560px;
+    height: 120px;
+    flex-basis: 100%;
+}
+
+.MyDescription-container > img {
+    width: 420px;
+    height: 511px;
+    align-self: start;
+}
